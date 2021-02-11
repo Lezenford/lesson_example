@@ -12,8 +12,12 @@ public class Main {
 
         final Iterator<String> stringIterator = stringList.iterator();
 
-        stringIterator.hasNext();
-        stringIterator.next();
-        stringIterator.remove();
+        while (stringIterator.hasNext()){
+            System.out.println(stringIterator.next());
+        }
+//
+//        stringIterator.hasNext();
+//        stringIterator.next();
+//        stringIterator.remove();
     }
 }
